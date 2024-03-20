@@ -269,7 +269,7 @@ impl App {
             <div class="container">
               <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="/" class="d-flex align-items-center mt-2 mb-lg-0 me-md-5 text-decoration-none">
-                  <h2>{"LLDAP"}</h2>
+                  <h2>{"Wild Blue Login"}</h2>
                 </a>
 
                 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
@@ -351,23 +351,24 @@ impl App {
     fn view_footer(&self) -> Html {
         html! {
           <footer class="text-center fixed-bottom text-muted bg-light py-2">
-            <div>
-              <span>{format!("LLDAP version {}", env!("CARGO_PKG_VERSION"))}</span>
-            </div>
-            <div>
-              <a href="https://github.com/nitnelave/lldap" class="me-4 text-reset">
-                <i class="bi-github"></i>
-              </a>
-              <a href="https://discord.gg/h5PEdRMNyP" class="me-4 text-reset">
-                <i class="bi-discord"></i>
-              </a>
-              <a href="https://twitter.com/nitnelave1?ref_src=twsrc%5Etfw" class="me-4 text-reset">
-                <i class="bi-twitter"></i>
-              </a>
-            </div>
-            <div>
-              <span>{"License "}<a href="https://github.com/nitnelave/lldap/blob/main/LICENSE" class="link-secondary">{"GNU GPL"}</a></span>
-            </div>
+            {"🚀🌌"}
+            // <div>
+            //   <span>{format!("LLDAP version {}", env!("CARGO_PKG_VERSION"))}</span>
+            // </div>
+            // <div>
+            //   <a href="https://github.com/nitnelave/lldap" class="me-4 text-reset">
+            //     <i class="bi-github"></i>
+            //   </a>
+            //   <a href="https://discord.gg/h5PEdRMNyP" class="me-4 text-reset">
+            //     <i class="bi-discord"></i>
+            //   </a>
+            //   <a href="https://twitter.com/nitnelave1?ref_src=twsrc%5Etfw" class="me-4 text-reset">
+            //     <i class="bi-twitter"></i>
+            //   </a>
+            // </div>
+            // <div>
+            //   <span>{"License "}<a href="https://github.com/nitnelave/lldap/blob/main/LICENSE" class="link-secondary">{"GNU GPL"}</a></span>
+            // </div>
           </footer>
         }
     }

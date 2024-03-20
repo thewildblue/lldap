@@ -19,7 +19,7 @@ use yew_router::{prelude::History, scope_ext::RouterScopeExt};
 /// The fields of the form, with the constraints.
 #[derive(Model, Validate, PartialEq, Eq, Clone, Default)]
 pub struct FormModel {
-    #[validate(length(min = 8, message = "Invalid password. Min length: 8"))]
+    #[validate(length(min = 12, message = "Invalid password. Min length: 12"))]
     password: String,
     #[validate(must_match(other = "password", message = "Passwords must match"))]
     confirm_password: String,
